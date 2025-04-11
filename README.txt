@@ -7,6 +7,10 @@ snarkjs zkey export solidityverifier preimageverifier_0001.zkey ../contracts/Ver
 
 npx hardhat compile
 
-# launch blockchain, deploy
+# Launch blockchain, deploy
+npx hardhat node
+
+# In another tab..
+node scripts/deploy.sh
 node index.mjs generateHash 42 132
 node index.mjs proveOwnershipPreimage 42 132
