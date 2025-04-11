@@ -1,0 +1,15 @@
+node_modules
+package-lock.json
+artifacts
+cache
+*.r1cs
+*.sym
+*.ptau
+*.zkey
+*.wtns
+*.wasm
+witness_calculator.js
+generate_witness.js
+public.json
+proof.json
+verification_key.json
